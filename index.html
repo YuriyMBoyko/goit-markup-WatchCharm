@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/svg+xml" href="./images/watchcharm.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WatchCharm - Have the time of your life with our watches">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@700&display=swap">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>WatchCharm</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container container">
+        <!-- Header navigation -->
+        <nav class="header-menu">
+          <!-- Header logo -->
+          <a class="header-logo-link" href="./index.html">WatchCharm</a>
+          <!-- Header menu -->
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+              <a class="header-menu-item-link header-menu-active-link" href="#">Home</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-item-link" href="#about">About Us</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-item-link" href="#catalog">Catalog</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-item-link" href="#sale">Sale</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-item-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-item-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <!-- Header socials -->
+          <ul class="header-socials-list">
+            <li class="header-socials-item">
+              <a class="header-socials-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <svg class="header-socials-image" aria-label="facebook" width="20" height="20">
+                  <use href="./images/icons.svg#facebook" />
+                </svg>
+              </a>
+            </li>
+            <li class="header-socials-item">
+              <a class="header-socials-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <svg class="header-socials-image" aria-label="instagram" width="20" height="20">
+                  <use href="./images/icons.svg#instagram" />
+                </svg>
+              </a>
+            </li>
+            <li class="header-socials-item">
+              <a class="header-socials-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                <svg class="header-socials-image" aria-label="youtube" width="20" height="20">
+                  <use href="./images/icons.svg#youtube" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <!-- Header open mobile menu -->
+          <button class="header-mobile-menu-button" type="button">
+            <svg class="header-mobile-menu-button-icon" aria-label="menu" width="34" height="34">
+              <use href="./images/icons.svg#mobile-menu" />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Hero section -->
+      <section class="hero">
+        <div class="hero-container container">
+          <div class="hero-title-team-wrapper">
+            <div class="hero-title-wraper">
+              <h1 class="hero-title">Welcome to our <span class="hero-title-highlight">collection</span> of premium watches</h1>
+              <p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and lifestyle. From classic designs to modern ones, we have a watch to suit every taste and occasion.</p>
+            </div>
+            <div class="hero-photos-wraper">
+              <img class="hero-team-image" srcset="./images/hero/hero-team-1x.png 1x, ./images/hero/hero-team-2x.png 2x" src="./images/hero/hero-team-1x.png" alt="Out team">
+              <a class="hero-scroll-down-link" href="#footer">Scroll down</a>
+            </div>
+          </div>
+          <div class="hero-board-wrapper">
+            <picture>
+              <source
+                srcset="
+                  ./images/hero/hero-desktop-1x.jpg 1x,
+                  ./images/hero/hero-desktop-2x.jpg 2x"
+                media="(min-width: 1280px)" />
+              <source
+                srcset="
+                  ./images/hero/hero-tablet-1x.jpg 1x,
+                  ./images/hero/hero-tablet-2x.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="
+                  ./images/hero/hero-mobile-1x.jpg 1x,
+                  ./images/hero/hero-mobile-2x.jpg 2x"
+                media="(max-width: 767px)" />
+              <img class="hero-board-image" src="./images/hero/hero-mobile-1x.jpg" alt="Hero image">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- About Us section -->
+      <section id="about" class="about">
+        <div class="about-cotainer container">
+          <div class="about-wrapper">
+            <h2 class="about-title">About Us</h2>
+            <div class="about-text-wrapper">
+              <p class="about-text">
+                Welcome to our premium watch collection, where luxury and style meet functionality and precision. Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll always have a reliable and stylish accessory on your wrist.
+              </p>
+              <p class="about-text">
+                At our premium watch collection, we believe that a watch is more than just a timekeeping device - it's a statement piece that reflects your personality and style. So why settle for anything less than the best? 
+              </p>
+            </div>
+            <button class="about-button" type="button">View catalog</button>
+          </div>
+          <div class="about-image-wrapper">
+            <picture>
+              <source
+                srcset="
+                  ./images/about/about-desktop-1x.jpg 1x,
+                  ./images/about/about-desktop-2x.jpg 2x"
+                media="(min-width: 1280px)" />
+              <source
+                srcset="
+                  ./images/about/about-tablet-1x.jpg 1x,
+                  ./images/about/about-tablet-2x.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="
+                  ./images/about/about-mobile-1x.jpg 1x,
+                  ./images/about/about-mobile-2x.jpg 2x"
+                media="(max-width: 767px)" />
+              <img class="about-image" src="./images/about/about-mobile-1x.jpg" alt="About us">
+            </picture>
+          </div>
+        </div>
+
+      </section>
+      <!-- Catalog section -->
+      <section id="catalog" class="catalog">
+        <div class="catalog-container container">
+          <h2 class="catalog-title">Catalog</h2>
+          <ul class="catalog-list">
+            <li class="catalog-item">
+              <img class="catalog-item-image" srcset="./images/catalog/item01-1x.png 1x, ./images/catalog/item01-2x.png 2x" src="./images/catalog/item01-1x.png" alt="Garmin Fenix 7X Pro Sapphire Solar" width="264">
+              <h3 class="catalog-item-title">Garmin Fenix 7X Pro Sapphire Solar</h3>
+              <p class="catalog-item-price">€500</p>
+            </li>
+            <li class="catalog-item">
+              <img class="catalog-item-image" srcset="./images/catalog/item02-1x.png 1x, ./images/catalog/item02-2x.png 2x" src="./images/catalog/item02-1x.png" alt="Garmin Marq Athlete" width="264">
+              <h3 class="catalog-item-title">Garmin Marq Athlete</h3>
+              <p class="catalog-item-price">€450</p>
+            </li>
+            <li class="catalog-item">
+              <img class="catalog-item-image" srcset="./images/catalog/item03-1x.png 1x, ./images/catalog/item03-2x.png 2x" src="./images/catalog/item03-1x.png" alt="Garmin Descent MK1" width="264">
+              <h3 class="catalog-item-title">Garmin Descent MK1</h3>
+              <p class="catalog-item-price">€680</p>
+            </li>
+            <li class="catalog-item">
+              <img class="catalog-item-image" srcset="./images/catalog/item04-1x.png 1x, ./images/catalog/item04-2x.png 2x" src="./images/catalog/item04-1x.png" alt="Garmin D2 Delta PX" width="264">
+              <h3 class="catalog-item-title">Garmin D2 Delta PX</h3>
+              <p class="catalog-item-price">€380</p>
+            </li>
+            <li class="catalog-item">
+              <img class="catalog-item-image" srcset="./images/catalog/item05-1x.png 1x, ./images/catalog/item05-2x.png 2x" src="./images/catalog/item05-1x.png" alt="Garmin Fenix 6 Pro Solar" width="264">
+              <h3 class="catalog-item-title">Garmin Fenix 6 Pro Solar</h3>
+              <p class="catalog-item-price">€400</p>
+            </li>
+            <li class="catalog-item">
+              <img class="catalog-item-image" srcset="./images/catalog/item06-1x.png 1x, ./images/catalog/item06-2x.png 2x" src="./images/catalog/item06-1x.png" alt="Tube Watch S42 Date Steel With Black Case" width="264">
+              <h3 class="catalog-item-title">Tube Watch S42 Date Steel With Black Case</h3>
+              <p class="catalog-item-price">€395</p>
+            </li>
+          </ul>
+          <button class="catalog-show-more-button" type="button">Show more</button>
+        </div>
+      </section>
+      <section class="advertisement">
+        <div class="advertisement-container container">
+          <div class="advertisement-wrapper">
+            <h2 class="advertisement-title">Choose <span class="advertisement-title-highlight">your story</span>, making every moment unique. Time is your style, and we reveal it.</h2>
+            <button class="advertisement-button">Contact Us</button>
+          </div>
+        </div>
+      </section>
+      <!-- Sale section -->
+      <section id="sale" class="sale">
+        <div class="sale-container container">
+          <h2 class="sale-title">Sale</h2>
+          <div class="sale-wrapper">
+            <div class="sale-preview-wrapper">
+              <ul class="sale-list">
+                <li class="sale-item">
+                  <img class="sale-item-image" srcset="
+                      ./images/sale/mobile/preview1-1x.png 52w,
+                      ./images/sale/tablet/preview1-1x.png 96w,
+                      ./images/sale/mobile/preview1-2x.png 104w,
+                      ./images/sale/tablet/preview1-2x.png 192w" 
+                    sizes="
+                      (max-width: 767px) 52px,
+                      96px"
+                    src="./images/sale/desktop/preview1-1x.jpg" alt="Sale preview 1">
+                </li>
+                <li class="sale-item">
+                  <img class="sale-item-image" srcset="
+                      ./images/sale/mobile/preview2-1x.png 52w,
+                      ./images/sale/tablet/preview2-1x.png 96w,
+                      ./images/sale/mobile/preview2-2x.png 104w,
+                      ./images/sale/tablet/preview2-2x.png 192w" 
+                    sizes="
+                      (max-width: 767px) 52px,
+                      96px"
+                    src="./images/sale/desktop/preview2-1x.jpg" alt="Sale preview 2">
+                </li>
+                <li class="sale-item">
+                  <img class="sale-item-image" srcset="
+                      ./images/sale/mobile/preview3-1x.png 52w,
+                      ./images/sale/tablet/preview3-1x.png 96w,
+                      ./images/sale/mobile/preview3-2x.png 104w,
+                      ./images/sale/tablet/preview3-2x.png 192w" 
+                    sizes="
+                      (max-width: 767px) 52px,
+                      96px"
+                    src="./images/sale/desktop/preview3-1x.jpg" alt="Sale preview 3">
+                </li>
+                <li class="sale-item">
+                  <img class="sale-item-image" srcset="
+                      ./images/sale/mobile/preview4-1x.png 52w,
+                      ./images/sale/tablet/preview4-1x.png 96w,
+                      ./images/sale/mobile/preview4-2x.png 104w,
+                      ./images/sale/tablet/preview4-2x.png 192w" 
+                    sizes="
+                      (max-width: 767px) 52px,
+                      96px"
+                    src="./images/sale/desktop/preview4-1x.jpg" alt="Sale preview 4">
+                </li>
+              </ul>
+              <div class="sale-item-preview">
+                <img class="sale-item-preview-image" srcset="
+                    ./images/sale/mobile/preview-1x.png 235w,
+                    ./images/sale/tablet/preview-1x.png 328w,
+                    ./images/sale/mobile/preview-2x.png 470w,
+                    ./images/sale/tablet/preview-2x.png 656w" 
+                  sizes="
+                    (max-width: 767px) 235px,
+                    328px"
+                  src="./images/sale/desktop/preview-1x.jpg" alt="Sale preivew">
+              </div>
+            </div>
+            <div class="sale-item-details">
+              <div class="sale-item-name">
+                <h3 class="sale-item-name-text">MARQ&reg; Commander (Gen 2) - Carbon Edition</h3>
+                <p class="sale-item-code-text">Product tag:<span class="sale-item-code">706587</span></p>
+              </div>              
+              <div class="sale-item-price">
+                <p class="sale-item-price-current">&euro;1500</p>
+                <p class="sale-item-price-prior">&euro;3000</p>
+              </div>
+              <div class="sale-item-descr">
+                <p class="sale-item-descr-text">
+                  The Garmin MARQ Commander Gen 2 Carbon Edition is a modern smartwatch for adventurers that takes materials and features to the next level. The body of the watch is made of very durable Fused Carbon Fiber material and has a precise AMOLED touch screen. The sensitive touch screen is complemented by buttons that can be used in any conditions.
+                </p>
+              </div>
+              <div class="sale-item-groups-wrapper">
+                <ul class="sale-item-groups">
+                  <li class="sale-item-group">Fused carbon fiber </li>
+                  <li class="sale-item-group">Grade-5 Titanuim</li>
+                  <li class="sale-item-group">Athlete</li>
+                  <li class="sale-item-group">Golfer</li>
+                  <li class="sale-item-group">Commander</li>
+                  <li class="sale-item-group">Adventurer</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Reviews section -->
+      <section id="reviews" class="reviews">
+        <div class="reviews-container container">
+          <h1 class="reviews-title">Reviews</h1>
+          <div class="reviews-list-wrapper">
+            <ul class="reviews-list">
+              <li class="reviews-item">
+                <img class="reviews-item-image" srcset="./images/reviews/john-wax-1x.png 1x, ./images/reviews/john-wax-2x.png 2x" src="./images/reviews/john-wax-1x.jpg" alt="John Wax review">
+                <h3 class="reviews-item-title">John Wax</h3>
+                <p class="reviews-item-text">Buying a watch from was the best choice for me. The design is perfectly combined with high quality materials. The strap fits nicely on the hand, and the mechanism works flawlessly.</p>
+              </li>
+              <li class="reviews-item">
+                <img class="reviews-item-image" srcset="./images/reviews/victoria-romashenko-1x.png 1x, ./images/reviews/victoria-romashenko-2x.png 2x" src="./images/reviews/victoria-romashenko-1x.jpg" alt="Victoria Romashenko review">
+                <h3 class="reviews-item-title">Victoria Romashenko</h3>
+                <p class="reviews-item-text">Can't take my eyes off my watch from. Every time I put it on, it is admired by those around me. The build quality and attention to detail make it a real gem among my accessories.</p>
+              </li>
+              <li class="reviews-item">
+                <img class="reviews-item-image" srcset="./images/reviews/anastasia-trachuk-1x.png 1x, ./images/reviews/anastasia-trachuk-2x.png 2x" src="./images/reviews/anastasia-trachuk-1x.jpg" alt="Anastasia Trachuk review">
+                <h3 class="reviews-item-title">Anastasia Trachuk</h3>
+                <p class="reviews-item-text">My watch from is a real masterpiece. Every detail impresses with the high quality of execution. Special features like [specify features] make it an indispensable companion in my daily life.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Us section -->
+      <section id="contact" class="contact">
+        <div class="contact-container container">
+          <h2 class="contact-title">Contact Us</h2>
+          <div class="contact-wrapper">
+            <div class="contact-form-wrapper">
+              <h3 class="contact-caption">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</h3>
+              <form class="contact-form">
+                <input id="user-name-field" class="contact-input" type="text" name="user-name" placeholder="Name">
+                <input id="user-email-field" class="contact-input" type="email" name="user-email" placeholder="Email">
+                <input id="user-phone-field" class="contact-input" type="tel" name="user-phone" placeholder="+380">
+                <textarea id="comment-field" class="contact-input contact-textarea" name="comment" placeholder="Comment"></textarea>
+                <button id="send-button" class="contact-send-button" type="submit" name="user-send">Send</button>
+              </form>
+            </div>
+            <div class="contact-image-wrapper">
+              <picture>
+                <source
+                  srcset="
+                    ./images/contact/contact-desktop-1x.jpg 1x,
+                    ./images/contact/contact-desktop-2x.jpg 2x"
+                  media="(min-width: 1280px)" />
+                <source
+                  srcset="
+                    ./images/contact/contact-tablet-1x.jpg 1x,
+                    ./images/contact/contact-tablet-2x.jpg 2x"
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./images/contact/contact-mobile-1x.jpg 1x,
+                    ./images/contact/contact-mobile-2x.jpg 2x"
+                  media="(max-width: 767px)" />
+                <img class="contact-image" src="./images/contact/contact-mobile-1x.jpg" alt="Contact us">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+      <div class="footer-container container">
+        <div class="footer-wrapper">
+          <div class="footer-top">
+            <!-- Footer logo and socials -->
+            <div class="footer-logo-socials">
+              <!-- Footer logo -->
+              <a class="footer-logo-link" href="./index.html">WatchCharm</a>
+              <div class="footer-socials">
+                <!-- Footer socials -->
+                <ul class="footer-socials-list">
+                  <li class="footer-socials-item">
+                    <a class="footer-socials-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                      <svg class="footer-socials-image" aria-label="facebook" width="20" height="20">
+                        <use href="./images/icons.svg#facebook" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer-socials-item">
+                    <a class="footer-socials-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                      <svg class="footer-socials-image" aria-label="instagram" width="20" height="20">
+                        <use href="./images/icons.svg#instagram" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer-socials-item">
+                    <a class="footer-socials-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                      <svg class="footer-socials-image" aria-label="youtube" width="20" height="20">
+                        <use href="./images/icons.svg#youtube" />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <a class="footer-phone-link footer-text" href="tel:+380684439426">+380 (68) 443-94-26</a>
+            </div>
+            <p class="footer-slogan-text">Have the time of your life with our watches: where high-class craftsmanship meets impeccable design</p>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-menu-address">
+              <div class="footer-menu">
+                <ul class="footer-menu-list">
+                  <li class="footer-menu-item">
+                    <a class="footer-menu-link footer-text" href="#">Home</a>
+                  </li>
+                  <li class="footer-menu-item">
+                    <a class="footer-menu-link footer-text" href="#about">About Us</a>
+                  </li>
+                  <li class="footer-menu-item">
+                    <a class="footer-menu-link footer-text" href="#catalog">Catalog</a>
+                  </li>
+                  <li class="footer-menu-item">
+                    <a class="footer-menu-link footer-text" href="#sale">Sale</a>
+                  </li>
+                  <li class="footer-menu-item">
+                    <a class="footer-menu-link footer-text" href="#reviews">Reviews</a>
+                  </li>
+                  <li class="footer-menu-item">
+                    <a class="footer-menu-link footer-text" href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-address">
+                <p class="footer-address-text footer-text">1678 S. Pioneer Road Salt Lake City UT 84104</p>
+              </div>
+            </div>
+            <div class="footer-copyright-statements">
+              <div class="footer-copyright">
+                <p class="footer-copyright-text footer-text">&copy;2023 The Watch Spot. All rights reserved.</p>
+              </div>
+              <div class="footer-statements">
+                <ul class="footer-statement-list">
+                  <li class="footer-statement-item">
+                    <a class="footer-statement-link footer-text" href="">Terms of Service</a>
+                  </li>
+                  <li class="footer-statement-item">
+                    <a class="footer-statement-link footer-text" href="">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Mobile/tablet menu -->
+    <div class="mobile-menu-overlay">
+      <div class="mobile-menu">
+        <div class="mobile-menu-container">
+          <!-- Mobile/tablet menu - close button -->
+          <button class="mobile-menu-close" type="button">
+            <svg class="mobile-menu-close-image" aria-text="close" width="8" height="8">
+              <use href="./images/icons.svg#icon-x" />
+            </svg>
+          </button>
+          <div class="mobile-menu-wrapper">
+            <!-- Mobile/tablet menu - navigation -->
+            <nav class="mobile-menu-nav">
+              <ul class="mobile-menu-nav-list">
+                <li class="mobile-menu-nav-item">
+                  <a  class="movile-menu-nav-link mobile-menu-nav-link-current" href="#">Home</a>
+                </li>
+                <li class="mobile-menu-nav-item">
+                  <a  class="movile-menu-nav-link" href="#about">About Us</a>
+                </li>
+                <li class="mobile-menu-nav-item">
+                  <a  class="movile-menu-nav-link" href="#catalog">Catalog</a>
+                </li>
+                <li class="mobile-menu-nav-item">
+                  <a  class="movile-menu-nav-link" href="#sale">Sale</a>
+                </li>
+                <li class="mobile-menu-nav-item">
+                  <a  class="movile-menu-nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="mobile-menu-nav-item">
+                  <a  class="movile-menu-nav-link" href="#contact">Contat Us</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="mobile-menu-socials">
+              <!-- Mobile/tablet menu - socials -->
+              <ul class="mobile-menu-socials-list">
+                <li class="mobile-menu-socials-item">
+                  <a class="mobile-menu-socials-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <svg class="mobile-menu-socials-image" aria-label="facebook" width="20" height="20">
+                      <use href="./images/icons.svg#facebook" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-menu-socials-item">
+                  <a class="mobile-menu-socials-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <svg class="mobile-menu-socials-image" aria-label="instagram" width="20" height="20">
+                      <use href="./images/icons.svg#instagram" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-menu-socials-item">
+                  <a class="mobile-menu-socials-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                    <svg class="mobile-menu-socials-image" aria-label="youtube" width="20" height="20">
+                      <use href="./images/icons.svg#youtube" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

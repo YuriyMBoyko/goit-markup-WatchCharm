@@ -1,0 +1,111 @@
+:root {
+	--main: #0c0c0c;
+	--accent: #3350e9;
+	--background: #fbfbfb;
+	--cards: #f3f3f3;
+  --font-family: "Gilroy", sans-serif;
+}
+
+body {
+/*  scroll-padding-top: 100px;*/
+  font-family: var(--font-family);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--main);
+  background-color: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: currentColor; /* inherited; */
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  background: none;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+}
+
+section {
+  padding-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  section {
+    padding-top: 100px;
+  }
+}
+/*
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    gap: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main {
+    gap: 100px;
+  }
+}
+*/
